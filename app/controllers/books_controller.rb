@@ -3,4 +3,8 @@ class BooksController < ApplicationController
     # @books = Book.all
     @books = Book.paginate :page => params[:page], :per_page => 10
   end
+
+  def show
+    @book = Book.find params[:id]
+  end
 end
