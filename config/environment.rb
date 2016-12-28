@@ -2,6 +2,10 @@
 require_relative 'application'
 
 # Initialize the Rails application.
-Rails.application.initialize!
+Rails.application.initialize! do
+  config.gem 'forgery'
+  config.gem 'will_paginate'
+end
 
 # config.gem 'forgery'
+# config.gem 'will_paginate'
