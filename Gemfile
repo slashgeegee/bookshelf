@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'nifty-generators'
 gem 'will_paginate'
 gem 'forgery'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
